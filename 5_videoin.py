@@ -15,6 +15,7 @@ height = cap.get(cv2.CAP_PROP_FRAME_HEIGHT)
 print(width) 
 print(height) 
 
+# 영상 파일 안에 들어있는 전체 프레임(이미지) 개수
 frame_count = cap.get(cv2.CAP_PROP_FRAME_COUNT)
 print(frame_count) # 291.0 
 
