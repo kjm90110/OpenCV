@@ -12,6 +12,7 @@ dst1 = man + turkey
 dst2 = cv2.add(man, turkey)
 
 img = {'man':man, 'turkey':turkey, 'dst1':dst1, 'dst2':dst2}
+
 for i, (k, v) in enumerate(img.items()):
     plt.subplot(2, 2, i+1)
     plt.imshow(v[:, :, ::-1])
