@@ -5,8 +5,8 @@ oldx = oldy = 0
 
 def on_mouse(event, x, y, flags, param):
     global oldx, oldy
-    # print("x: ", x, "y:", y)
-    # print('flags:', flags)
+    print("x: ", x, "y:", y)
+    print('flags:', flags)
 
     if event == cv2.EVENT_LBUTTONDBLCLK: # 좌클릭
         print('마우스 왼쪽 버튼 클릭')
